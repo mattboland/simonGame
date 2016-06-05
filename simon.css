@@ -1,0 +1,64 @@
+body{
+  background-color: #d5f4f0;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Candal', sans-serif;
+}
+.plate{
+	width: 24em;
+	height: 24em;
+  margin-left: auto;
+  margin-right:auto;
+}
+.tile{  
+  width: 50%;
+  height:50%;
+    
+}
+#game-control{  
+  margin: 0 auto;
+  top: 50%;
+  left:50%;
+  text-align:center;
+}
+
+#red{
+  position:relative;
+  display:inline;
+  background-color:red;
+  border-radius: 100% 0 0 0;
+  cursor: pointer;
+}
+#blue{
+  background-color: blue;
+  border-radius: 0 100% 0 0;
+  cursor: pointer;
+}
+#yellow{
+  background-color:yellow;
+  border-radius: 0 0 0 100%;
+  cursor: pointer;
+}
+#green{
+  background-color: green;
+  border-radius: 0 0 100% 0;
+  cursor: pointer;
+}
+#score{
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  color: red;
+  font-size: 30px;
+  text-align:center;
+  margin: auto;
+  font-family: 'Candal', sans-serif;
+}
+button{
+  font-family: 'Candal', sans-serif;
+}
+.pressed{
+  background-color: red;
+}
